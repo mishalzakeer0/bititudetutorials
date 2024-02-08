@@ -1,0 +1,52 @@
+.top{
+    background-color: #1F2937;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+    /* font-family: ; */
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+
+}
+a {
+
+    text-decoration: none;
+    font-size: small;
+    font-size: 10px;
+}
+h2, p , img, a, .header{
+    color: aliceblue;
+
+}
+
+button{
+    color: aliceblue;
+    background-color: #3882F6;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    border: none;
+    width: 58px;
+    height: 18px;
+
+}
+.intro{
+    display: flex;
+}
+.intro h2, p, button{
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+}
+.left{
+    margin-left: 20px;
+    margin-top: 20px;
+}
