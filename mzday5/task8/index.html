@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let person = prompt("who's there?")
+        if (person == "Admin"){
+            let pass = "password";
+            let userPass = prompt("password")
+            if (pass === userPass){
+                console.log("Welcome!");
+            }
+            else if (userPass === "" || userPass === null){
+                console.log("Canceled");
+            }
+            else{
+                console.log("Wrong password");
+            }    
+        }
+        else if (person === "" || person === null){
+            console.log("Canceled");
+        }
+        else{
+            console.log("I dont know you");
+        }
+
+    </script>
+</body>
+</html>
